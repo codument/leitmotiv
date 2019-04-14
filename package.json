@@ -1,7 +1,7 @@
 {
   "name": "leitmotiv",
-  "description": "project template for leitmotiv nodejs projects",
-  "version": "0.0.1",
+  "description": "",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "Falk Hoppe <falkhoppe81@gmail.com>",
   "license": "Apache-2.0",
@@ -12,7 +12,6 @@
     "test": "tape test/unit/*-test.js",
     "watch:test": "chokidar 'index.js' 'test/unit/*-test.js' -c 'npm test'"
   },
-  "description": "",
   "dependencies": {
     "dotenv": "^7.0.0"
   },
