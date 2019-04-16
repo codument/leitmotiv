@@ -17,7 +17,7 @@ git clone git@github.com:leitkultur/leitmotiv.git ./desired-package-name
 cd desired-package-name
 
 # replace   occurrences of leitmotiv to your desired package name
-find . -exec sed -i -e 's/leitmotiv/desired-package-name/g' {} \;
+find . -type f -exec sed -i -e 's/leitmotiv/desired-package-name/g' {} \;
 
 # rename binary to your desired package name. If you want something different
 # as resulting bin name, you should update the package.json accordingly.
