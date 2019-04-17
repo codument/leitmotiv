@@ -13,7 +13,7 @@ The commands were tested using Apple MacOS, but they might fail or produce harm
 on other machines. Different OS' might differ in arguments and usage.
 
 ```
-git clone git@github.com:leitkultur/leitmotiv.git ./desired-package-name
+git clone git@github.com:codument/leitmotiv.git ./desired-package-name
 cd desired-package-name
 
 # replace   occurrences of leitmotiv to your desired package name
